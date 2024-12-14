@@ -37,7 +37,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 - OpenCV  
 - Python 3.8+  
 - NumPy  
-- ACO library (or custom implementation)  
+  -some other required for implementing pareto and ACO
 
 ### Hardware
 - A system with Docker installed  
@@ -61,12 +61,8 @@ This project demonstrates a fog computing-based system for detecting the presenc
    - Deploy the ACO-based task scheduler on the fog head to offload tasks to other fog nodes.  
 
 5. **Monitor Output**:
-   - Check the logs for task assignments and confirmation of red color detection.  
+   - Check the logs for task assignments and confirmation of red color detection.as we can also see where the present task is offloaded to which node and also the processing results using .html files for representation 
 
 ---
 
-## Future Enhancements
-- Integration of additional color detection.  
-- Dynamic scaling of fog nodes based on workload.  
-- Support for heterogeneous fog node resources.  
-- Implementation of energy-efficient scheduling algorithms.  
+
