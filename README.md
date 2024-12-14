@@ -1,7 +1,7 @@
 # Fog-Based Video Processing with Pareto and ACO
 
 ## Project Overview
-This project demonstrates a fog computing-based system for detecting the presence of the red color in a video stream. By leveraging Docker containers, OpenCV for image processing, Pareto optimization for fog node selection, and Ant Colony Optimization (ACO) for task scheduling, this project ensures efficient task offloading and processing across a distributed fog network.
+This project demonstrates a fog computing-based system for detecting the presence of the red color in a video stream. By leveraging Docker containers, OpenCV for image processing, Pareto optimization for fog node selection, and Ant Colony Optimization (ACO) for task offloading, this project ensures efficient task offloading and processing across a distributed fog network.
 
 ---
 
@@ -10,7 +10,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 - **Task Segmentation**: Each video frame is converted into a byte stream and treated as an individual task.  
 - **Distributed Fog Network**: Deploys three fog nodes using Docker containers.  
 - **Fog Node Selection**: A Pareto optimization approach determines the most suitable fog head for task processing.  
-- **Task Scheduling**: The selected fog head uses Ant Colony Optimization (ACO) to distribute tasks across other fog nodes effectively.
+- **Task offloading**: The selected fog head uses Ant Colony Optimization (ACO) to distribute tasks across other fog nodes effectively.
 
 ---
 
@@ -26,7 +26,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 3. **Fog Head Selection**:
    - Pareto optimization is used to evaluate and select the optimal fog node to act as the fog head based on parameters like computation capacity, data travel time, and energy usage.  
 
-4. **Task Scheduling**:
+4. **Task offloading**:
    - The fog head utilizes the ACO algorithm to offload tasks to other fog nodes efficiently.
 
 ---
@@ -57,7 +57,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 3. **Run Fog Node Selection**:
    - Use the Pareto optimization algorithm to identify the most suitable fog head.  
 
-4. **Task Scheduling**:
+4. **Task offloading**:
    - Deploy the ACO-based task scheduler on the fog head to offload tasks to other fog nodes.  
 
 5. **Monitor Output**:
