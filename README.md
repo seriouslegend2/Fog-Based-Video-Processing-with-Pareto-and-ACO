@@ -62,7 +62,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 
 5. **Monitor Output**:
    - Check the logs for task assignments and confirmation of red color detection.as we can also see where the present task is offloaded to which node and also the processing results using .html files for representation 
-
+..
 ---
 
 
