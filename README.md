@@ -31,13 +31,7 @@ This project demonstrates a fog computing-based system for detecting the presenc
 
 ---
 
-## Requirements
-### Software
-- Docker  
-- OpenCV  
-- Python 3.8+  
-- NumPy  
-  -some other required for implementing pareto and ACO
+
 
 ### Hardware
 - A system with Docker installed  
