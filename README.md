@@ -59,4 +59,5 @@ This project demonstrates a fog computing-based system for detecting the presenc
 ..
 ---
 
-
+optimization used pareto paper for reference 
+https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=FlA7oJ0AAAAJ&sortby=pubdate&citation_for_view=FlA7oJ0AAAAJ:4TOpqqG69KYC
