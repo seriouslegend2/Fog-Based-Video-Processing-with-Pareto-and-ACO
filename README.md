@@ -1,7 +1,7 @@
 # Fog-Based Video Processing with Pareto and ACO
 
 ## Project Overview
-This project demonstrates a fog computing-based system for detecting the presence of the red color in a video stream. By leveraging Docker containers, OpenCV for image processing, Pareto optimization for fog node selection, and Ant Colony Optimization (ACO) for task offloading, this project ensures efficient task offloading and processing across a distributed fog network.
+This project demonstrates a fog computing-based system for detecting the presence of the red color in a video stream. By leveraging Docker containers, OpenCV for image processing, Pareto optimization for fog head selection, and Ant Colony Optimization (ACO) for task offloading, this project ensures efficient task offloading and processing across a distributed fog network.
 
 ---
 
