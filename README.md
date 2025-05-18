@@ -1,4 +1,4 @@
-# Fog-Based Video Processing with Pareto and ACO
+# Fog-Based Video Processing and scheduling with Pareto and ACO
 
 ## Project Overview
 
